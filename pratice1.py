@@ -1,0 +1,11 @@
+list=[1,2,3,4,5]
+list.append(5)
+listCopyAll=list[::]
+print(list)
+print(listCopyAll)
+reverseList=list[::-1]
+print(reverseList)
+plusList=list+[6]
+print(plusList)
+list.extend([6,7,8])
+print(list)
